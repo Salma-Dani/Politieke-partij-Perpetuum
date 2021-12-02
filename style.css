@@ -1,0 +1,79 @@
+table.personen {
+  border: 5px solid rgb(236, 169, 222);
+  border-collapse: collapse;
+} 
+
+table.personen th { 
+  border: 3px dotted rgb(142, 170, 245);
+  background-color: rgb(250, 206, 213);
+} 
+table.personen td { 
+  border: 3px dotted rgb(142, 170, 245);
+  background-color: rgb(250, 206, 213);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: rgb(255, 234, 242) url('https://i.pinimg.com/736x/89/d3/ae/89d3aed568532c14e372494ef87def91.jpg') repeat;
+}
+header{
+  background: url('https://www.uva.nl/binaries/_ht_1612166103988/small/content/gallery/faculteiten-en-diensten/fmg/fmg-corporate-met-restricties/nieuws/banner-verkiezingen.png');
+  width: 960px;
+  height: 150px;
+}
+header h1 {
+  font-size: 300%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(77, 75, 75);
+  text-align: center;
+  text-shadow: 5px 5px 7px #000000;
+}
+ul {
+  background: rgb(250, 228, 250);
+  padding: 10px;
+}
+ul li {
+  background: #fffefe;
+  padding: 8px;
+  border: solid 2px rgb(109, 24, 98);
+  display: inline-block;
+}
+ul li a {
+  color: rgb(12, 4, 4);
+  text-decoration: none;
+}
+ul li a:hover {
+  color: rgb(182, 46, 46);
+}
+section {
+  padding: 5px;
+  margin: 5px;
+  border: double 4px rgb(0, 0, 0);
+}
+section article {
+  border: 3px solid rgb(238, 115, 191);
+  border-radius: 0px 20px 20px 20px;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  background: white;
+}
+footer {
+  background: rgb(250, 228,250);
+}
+footer h6 {
+  text-align: center;
+  font-weight: normal;
+}
+wrapper {
+  margin: 0 auto 0 auto;
+  width: 960px;
+}
+ p { color: rgb(94, 0, 94); background-color: rgb(255, 233, 237); border: 3px solid palevioletred; border-radius: 12px;
+}
+h1 {
+  text-align: center;
+  
+}
